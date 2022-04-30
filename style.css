@@ -101,7 +101,7 @@ section .title::after {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: #fff;
+  color: yellow;
   font-size: 35px;
   font-weight: 600;
 }
@@ -169,7 +169,8 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url('images/banner.jpg') no-repeat center;
+  background: url('images/P1.jpg');
+  background-size: contain;
   height: 100vh;
   color: #fff;
   min-height: 500px;
