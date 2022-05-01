@@ -101,7 +101,7 @@ section .title::after {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: yellow;
+  color: #fff;
   font-size: 35px;
   font-weight: 600;
 }
@@ -169,8 +169,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url('images/P1.jpg');
-  background-size: contain;
+  background: url('images/p4.jpg');
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -386,7 +385,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: 'who with me';
+  content: 'made by me';
 }
 .teams .carousel .card {
   background: #222;
