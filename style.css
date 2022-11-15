@@ -1,5 +1,5 @@
 /*  import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -41,7 +41,7 @@ section {
 .teams,
 .contact,
 footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -59,10 +59,10 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 section .title::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -88,7 +88,7 @@ section .title::after {
   width: 100%;
   z-index: 999;
   padding: 30px 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
 .navbar.sticky {
@@ -169,13 +169,13 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url('images/p4.jpg');
+  background: url("images/p4.jpg");
   height: 100vh;
   color: #fff;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .home .max-width {
   width: 100%;
@@ -219,16 +219,15 @@ section .title::after {
 
 /* about section styling */
 .about .title::after {
-  content: 'who i am';
+  content: "who i am";
 }
 .about .about-content .left {
   width: 45%;
 }
 .about .about-content .left img {
-  height: 400px;
+  height: 370px;
   width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
+  object-fit: contain;
 }
 .about .about-content .right {
   width: 55%;
@@ -274,7 +273,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: 'what i provide';
+  content: "what i provide";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -311,7 +310,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-  content: 'what i know';
+  content: "what i know";
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -360,7 +359,7 @@ section .title::after {
   position: relative;
 }
 .skills .skills-content .right .line::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   left: 0;
@@ -385,7 +384,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: 'made by me';
+  content: "developed by me";
 }
 .teams .carousel .card {
   background: #222;
@@ -448,7 +447,7 @@ section .title::after {
 
 /* contact section styling */
 .contact .title::after {
-  content: 'get in touch';
+  content: "get in touch";
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
@@ -507,7 +506,7 @@ section .title::after {
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
@@ -575,7 +574,7 @@ footer span a:hover {
     z-index: 999;
   }
   .menu-btn i.active:before {
-    content: '\f00d';
+    content: "\f00d";
   }
   .navbar .menu {
     position: fixed;
