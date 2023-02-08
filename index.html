@@ -198,47 +198,72 @@
             <h2 class="title">Projects</h2>
             <div class="carousel owl-carousel">
 
-                <!--Authentication-->
-                <a href="https://ielts-auth.herokuapp.com/" style="text-decoration: none; color: inherit;">
+                <!--Realtor-->
+                <a href="https://realtor-tau-umber.vercel.app/" style="text-decoration: none; color: inherit;">
                 <div class="card">
                     <div class="box">
                         <img src="images/Auth.png" alt="">
-                        <div class="text">Authentication</div>
-                        <p>Basic login and registration project using MongoDB & Bcrypt. Also used Express-Session to remember logged in.</p>
+                        <div class="text">Realtor</div>
+                        <p>Real-estate Website</p>
                     </div>
                 </div>
                 </a>
-
-                <!--YELPCAMP-->
-                <a href="https://ycamps.herokuapp.com/" style="text-decoration: none; color: inherit;">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/Yelp.jpg" alt="">
-                        <div class="text">YelpCamp</div>
-                        <p>A website where people can post their campgrounds and share information about the place, location, price and more.</p>
-                    </div>
-                </div>
-                </a>
-
+                
                 <!--TradeZilla-->
-                <a href="https://fastidious-otter-5925f0.netlify.app/" style="text-decoration: none; color: inherit;">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/TradeZilla.png" alt="">
-                        <div class="text">TradeZilla</div>
-                        <p>An e-commerce website which supports all features like customer-seller authentication, product page, category search, cart page etc.</p>
+                <a href="https://tradezilla.vercel.app/" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/TradeZilla.png" alt="">
+                            <div class="text">TradeZilla</div>
+                            <p>E-commerce Website</p>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
 
-
-                <!-- <div class="card">
-                    <div class="box">
-                        <img src="" alt="">
-                        <div class="text">Social Media</div>
-                        <p>This .</p>
+                <!--Whatsapp Clone-->
+                <a href="https://chatsapp-eta.vercel.app" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/Yelp.jpg" alt="">
+                            <div class="text">ChatsApp</div>
+                            <p>Clone of Whatsapp</p>
+                        </div>
                     </div>
-                </div> -->
+                </a>
+
+                <!--Uber Clone-->
+                <a href="https://uber-nine-mu.vercel.app" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/Yelp.jpg" alt="">
+                            <div class="text">RideEase</div>
+                            <p>Clone of Uber</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Twitter Clone-->
+                <a href="https://twitter-xi-sable.vercel.app" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/Yelp.jpg" alt="">
+                            <div class="text">ChirpHub</div>
+                            <p>Clone of Twitter</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Instagram Clone-->
+                <a href="https://instagram-six-mu.vercel.app" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/Yelp.jpg" alt="">
+                            <div class="text">PixelPost</div>
+                            <p>Clone of Instagram</p>
+                        </div>
+                    </div>
+                </a>
+
             </div>
         </div>
     </section>
@@ -293,7 +318,7 @@
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button id="btnClck" onclick={submitHandler} type="submit">Send message</button>
                         </div>
                     </form>
                 </div>
